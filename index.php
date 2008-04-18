@@ -26,6 +26,7 @@
 //  ------------------------------------------------------------------------ //
 
 include "header.php";
+$myts = MyTextSanitizer::getInstance();
 if (empty($_POST['submit'])) {
 
 	$xoopsOption['template_main'] = 'contact_contactusform.html';
