@@ -1,0 +1,19 @@
+<div id="block_contact_form"><a href="<{$xoops_url}>/modules/contact/"><{$block.lang_contact_form}></a></div>
+
+<{if $block.contact_phone}>
+	<div id="block_contact_phone"><{$block.lang_contact_phone}> : <{$block.contact_phone}></div>
+<{/if}>
+
+<{if $block.contact_fax}>
+	<div id="block_contact_fax"><{$block.lang_contact_fax}> : <{$block.contact_fax}></div>
+<{/if}>
+
+<{if $block.contact_email}>
+	<div style="font-size: 10px;"><{$block.contact_email}></div>
+<{/if}>
+
+<{if $block.contact_address}>
+	<div id="block_contact_sitename"><{$block.contact_sitename}></div>
+	<div id="block_contact_address"><{$block.contact_address}></div>
+	<br />
+<{/if}>

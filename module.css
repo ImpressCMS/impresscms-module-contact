@@ -1,0 +1,54 @@
+#contactform {
+	padding-top: 5px;
+	padding-left: 0px;
+}
+
+#contact_header {
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+#contact_footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contact_sitename {
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#contact_address {
+}
+
+#contact_phone {
+}
+
+#contact_fax {
+}
+
+#contact_email {
+}
+
+#block_contact_form {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#block_contact_address {
+	padding-top: 10px;
+}
+
+#block_contact_phone {
+}
+
+#block_contact_fax {
+}
+
+#block_contact_email {
+}
+
+
+
+

@@ -1,0 +1,43 @@
+<{if $contact_title}>
+	<h2><{$contact_title}></h2>
+<{/if}>
+<{if $contact_header_msg}>
+	<div id="contact_header"><{$contact_header_msg}></div>
+<{/if}>
+<{$contactform.javascript}>
+
+<div id="contactform" style="width:300px;">
+<form name="<{$contactform.name}>" action="<{$contactform.action}>" method="<{$contactform.method}>" <{$contactform.extra}> >
+<{foreach item=element from=$contactform.elements}>
+      <{if $element.hidden != true}>
+  		
+			<div><{$element.caption}></div>
+			<div><{$element.body}><br /></div>
+		
+  <{else}>
+     <div> <{$element.body}></div>
+      <{/if}>
+    <{/foreach}>
+</form></div>
+
+<{if $contact_footer_msg}>
+	<div id="contact_footer"><{$contact_footer_msg}></div>
+<{/if}>
+
+<{if $contact_address}>
+	<div id="contact_sitename"><{$contact_sitename}></div>
+	<div id="contact_address"><{$contact_address}></div>
+	<br />
+<{/if}>
+
+<{if $contact_phone}>
+	<div id="contact_phone"><{$lang_contact_phone}> : <{$contact_phone}></div>
+<{/if}>
+
+<{if $contact_fax}>
+	<div id="contact_fax"><{$lang_contact_fax}> : <{$contact_fax}></div>
+<{/if}>
+
+<{if $contact_email}>
+	<div id="contact_email"><{$contact_email}></div>
+<{/if}>
