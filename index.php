@@ -32,6 +32,9 @@ if (empty($_POST['submit'])) {
 	$xoopsOption['template_main'] = 'contact_contactusform.html';
 	include XOOPS_ROOT_PATH."/header.php";
 	include_once XOOPS_ROOT_PATH."/class/xoopsformloader.php";
+
+	$xoTheme->addStylesheet(XOOPS_URL.'/modules/'.$xoopsModule->dirname().'/module.css');
+
 	$company_v = "";
 	$name_v = !empty($xoopsUser) ? $xoopsUser->getVar("uname", "E") : "";
 	$email_v = !empty($xoopsUser) ? $xoopsUser->getVar("email", "E") : "";
@@ -55,8 +58,6 @@ if (empty($_POST['submit'])) {
 
 	include "contactform.php";
 	$contact_form->assign($xoopsTpl);
-
-	$xoopsTpl->assign("xoops_module_header", "<link rel='stylesheet' type='text/css' href='" . XOOPS_URL  . "/modules/" . $xoopsModule->dirname() . "/module.css'/>");
 
 	include XOOPS_ROOT_PATH."/footer.php";
 } else {
