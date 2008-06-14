@@ -1,6 +1,6 @@
 <?php
 /**
-* $Id: modinfo.php 159 2007-12-17 16:44:05Z GibaPhp $
+* $Id: modinfo.php 159 2008-06-14 16:44:05Z GibaPhp $
 * Module: Contact
 * Author: The Impresscms Project
 * Translation: Portuguesebr - GibaPhp
@@ -14,22 +14,22 @@ define("_MI_CONTACT_DESC","Para enviar mensagens para o webmaster");
 
 define("_MI_CONTACT_BLOCK","Bloco de Contato");
 
-define("_MI_CONTACT_HEADER_MSG","Cabeçalho da mensagem");
+define("_MI_CONTACT_HEADER_MSG","CabeÃ§alho da mensagem");
 define("_MI_CONTACT_HEADER_MSG_DSC","");
 
-define("_MI_CONTACT_FOOTER_MSG","Rodapé da mensagem");
+define("_MI_CONTACT_FOOTER_MSG","RodapÃ© da mensagem");
 define("_MI_CONTACT_FOOTER_MSG_DSC","");
 
-define("_MI_CONTACT_ADDRESS","Endereço Postal");
+define("_MI_CONTACT_ADDRESS","EndereÃ§o Postal");
 define("_MI_CONTACT_ADDRESS_DSC","");
 
-define("_MI_CONTACT_PHONE","Número de telefone");
+define("_MI_CONTACT_PHONE","NÃºmero de telefone");
 define("_MI_CONTACT_PHONE_DSC","");
 
-define("_MI_CONTACT_FAX","O número de fax");
+define("_MI_CONTACT_FAX","O nÃºmero de fax");
 define("_MI_CONTACT_FAX_DSC","");
 
-define("_MI_CONTACT_EMAIL","Informações de e-mail");
+define("_MI_CONTACT_EMAIL","InformaÃ§Ãµes de e-mail");
 define("_MI_CONTACT_EMAIL_DSC","");
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 /**
-* $Id: blocks.php 159 2007-12-17 16:44:05Z GibaPhp $
+* $Id: blocks.php 159 2008-06-14 16:44:05Z GibaPhp $
 * Module: Contact
 * Author: The Impresscms Project
 * Translation: Portuguesebr - GibaPhp
@@ -9,6 +9,6 @@
 
 define("_CT_MB_CONTACT_PHONE","T");
 define("_CT_MB_CONTACT_FAX","F");
-define("_CT_MB_CONTACT_FORM","Formulário de Contato ");
+define("_CT_MB_CONTACT_FORM","FormulÃ¡rio de Contato ");
 
 ?>
