@@ -1,30 +1,35 @@
 <?php
-// $Id: modinfo.php 1662 2008-04-18 21:10:59Z malanciault $
-// Module Info
+/**
+* $Id: modinfo.php 159 2007-12-17 16:44:05Z GibaPhp $
+* Module: Contact
+* Author: The Impresscms Project
+* Translation: Portuguesebr - GibaPhp
+* Licence: GNU
+*/
 
 // The name of this module
-define("_MI_CONTACT_NAME","Contact Us");
+define("_MI_CONTACT_NAME","Fale conosco");
 // A brief description of this module
-define("_MI_CONTACT_DESC","For sending messages to the webmaster");
+define("_MI_CONTACT_DESC","Para enviar mensagens para o webmaster");
 
-define("_MI_CONTACT_BLOCK","Contact block");
+define("_MI_CONTACT_BLOCK","Bloco de Contato");
 
-define("_MI_CONTACT_HEADER_MSG","Header message");
+define("_MI_CONTACT_HEADER_MSG","Cabeçalho da mensagem");
 define("_MI_CONTACT_HEADER_MSG_DSC","");
 
-define("_MI_CONTACT_FOOTER_MSG","Footer message");
+define("_MI_CONTACT_FOOTER_MSG","Rodapé da mensagem");
 define("_MI_CONTACT_FOOTER_MSG_DSC","");
 
-define("_MI_CONTACT_ADDRESS","Postal Address");
+define("_MI_CONTACT_ADDRESS","Endereço Postal");
 define("_MI_CONTACT_ADDRESS_DSC","");
 
-define("_MI_CONTACT_PHONE","Phone number");
+define("_MI_CONTACT_PHONE","Número de telefone");
 define("_MI_CONTACT_PHONE_DSC","");
 
-define("_MI_CONTACT_FAX","Fax number");
+define("_MI_CONTACT_FAX","O número de fax");
 define("_MI_CONTACT_FAX_DSC","");
 
-define("_MI_CONTACT_EMAIL","Information email address");
+define("_MI_CONTACT_EMAIL","Informações de e-mail");
 define("_MI_CONTACT_EMAIL_DSC","");
 
 ?>
