@@ -1,10 +1,18 @@
 <?php
 /**
-* $Id: blocks.php 159 2008-06-14 16:44:05Z GibaPhp $
-* Module: Contact
-* Author: The Impresscms Project
-* Translation: Portuguesebr - GibaPhp
-* Licence: GNU
+* Translation for Portuguese users - default UTF-8
+* $Id: blocks.php,v 1.00 2008-06-14  06:14:00 GibaPhp Exp $
+* @Module: contact
+* @Dependences: 
+* @Version: 1.00
+* @Release Date: 
+* @Author: Onokazu, 
+* @Co-Authors: Team ImpressCMS
+* @Language: Portuguesebr
+* @Translators: GibaPhp / 
+* @Revision: 
+* @Support: http://br.impresscms.org - Team Brazilian.
+* @Licence: GNU
 */
 
 define("_CT_MB_CONTACT_PHONE","T");
