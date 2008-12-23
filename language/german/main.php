@@ -16,7 +16,7 @@ define("_CT_WEBMASTER","Webmaster");
 define("_CT_HELLO","Hallo %s,");
 define("_CT_THANKYOUCOMMENTS","Danke für Ihre Nachricht.");
 define("_CT_SENTTOWEBMASTER","Das Formular wurde verschickt.");
-define("_CT_SUBMITTED","%s submitted the following Information:");
+define("_CT_SUBMITTED","%s hat folgende Mitteilung gesendet:");
 define("_CT_MESSAGESENT","Mitteilung an %s versendet");
 define("_CT_SENTASCONFIRM","Ihre Nachricht wurde gesendet an: %s ");
 
